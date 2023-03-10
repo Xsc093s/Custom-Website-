@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
+	<title>Animated Portfolio</title>
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<div class="logo">folio<b>.</b></div>
+			<ul class="navItems">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Skills</a></li>
+				<li><a href="#">About Me</a></li>
+			</ul>
+			<div class="links">
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-tiktok"></i></a>
+				<a href="#"><i class="fab fa-whatsapp"></i></a>
+			</div>
+		</nav>
+
+		<div class="wrapper">
+			<div class="cols cols0">
+				<span class="topline">Hello</span>
+				<h1>I'm<span class="multiText"> Programmer</span></h1>
+				<p>Entah la nak oi</p>
+				<div class="btns">
+					<button>download CV</button>
+					<button>Hire me</button>
+			</div>
+		</div>
+		<div class="cols cols1">
+			<div class="imgbox">
+				<img src="My project.png" id="splash">
+				<img src="image.png">
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script>
+		var typingEffect = new Typed(".multiText", {
+			strings : ["Programmer","Xs1337","Fahmiey"],
+			loop : true,
+			typeSpeed : 100,
+			backSpeed : 80,
+			backDelay : 1500,
+		})
+	</script>
+</body>
+</html>
